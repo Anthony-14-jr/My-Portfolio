@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contianer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen {
+    max-width: 600px;
+
+}
+
+body {
+    data-aos-easing font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: blue;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+
+
+
+}
+
+a {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+}
+
+#web-logo {
+    border: 5px solid blue;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    /* padding: 16px; */
+    box-shadow: 2px 4px 8px;
+    position: relative;
+    transition: transform 4s ease-in-out;
+}
+
+#web-logo:hover {
+    transform: translateX(200px);
+    /* transform: scale(1.5);    */
+    cursor: pointer;
+}
+
+
+.icon {
+    display: flex;
+    background-color: blue;
+    gap: 20px;
+    height: 40px;
+}
+
+.icon :hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.Hero-section {
+    text-align: center;
+    padding: 32px;
+}
+
+#Hero-image {
+    width: 30%;
+    margin: 100px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 4s ease-in-out;
+    
+    
+}
+
+#Hero-image:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.section-layout {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+    padding: 32px;
+    flex-wrap: wrap;
+}
+
+#section-layout-text {
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: blue;
+    font-size: 24px;
+    line-height: 61px;
+}
+
+.About-section {
+    padding: 24px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px;
+}
+
+#intro {
+    font-size: 30px;
+    line-height: 61px;
+    border: 2px solid blue;
+    box-shadow: 0 5px 5px;
+    display: inline-block;
+    position: relative;
+    transition: transform 4s ease-in-out;
+    margin-bottom: 24px;
+}
+
+#intro:hover {
+    cursor: pointer;
+    transform: rotateY(200deg)
+}
+
+p {
+    font-size: 24px;
+    line-height: 61px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifx;
+}
+
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    margin-top: 222px;
+}
